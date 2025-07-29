@@ -1,0 +1,38 @@
+{
+  "regions": {
+    "qatar": {
+      "bbox": [50.75, 24.48, 51.64, 26.15],
+      "min_zoom": 10,
+      "max_zoom": 15,
+      "description": "Qatar region"
+    },
+    "ankara": {
+      "bbox": [32.5, 39.5, 33.0, 40.0],
+      "min_zoom": 10,
+      "max_zoom": 15,
+      "description": "Ankara region"
+    },
+    "istanbul": {
+      "bbox": [28.5, 40.8, 29.5, 41.2],
+      "min_zoom": 10,
+      "max_zoom": 15,
+      "description": "Istanbul region"
+    },
+    "izmir": {
+      "bbox": [27.0, 38.3, 27.5, 38.6],
+      "min_zoom": 10,
+      "max_zoom": 15,
+      "description": "Izmir region"
+    }
+  },
+  "servers": [
+    "CartoDB Light",
+    "CartoDB Dark", 
+    "Stamen Terrain",
+    "Stamen Watercolor"
+  ],
+  "output_dir": "map_tiles",
+  "max_workers_per_server": 15,
+  "retry_attempts": 3,
+  "timeout": 30
+} 
